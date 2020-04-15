@@ -80,14 +80,13 @@ body
 {
 	outline: none;
 	width: 40%;
-	height: 45%;
+	height: 50%;
 	background-color: white;
 	color: #000;
 	font-weight: bold;
 	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
 	padding: 0% 2% 0% 2%;
 	display: inline-grid;
-	cursor: pointer;
 	margin: 15px;
 	border: 1px solid black;
 	font-size: 20px;
@@ -131,4 +130,17 @@ body
 .croplist form
 {
 	margin-top: -7%;
+}
+.button_farm
+ {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
