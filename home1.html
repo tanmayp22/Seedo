@@ -28,7 +28,16 @@
 		<div class="a1">
 		<div class="btngrp" align="center">
 			<div class="croplist">
-				<h1>FARM 1</h1>
+				<div class="a2"><h1>FARM 1</h1><div class="popup" onclick="myFunction()"><img src="dropicon.png">
+  <span class="popuptext" id="myPopup"> Irrigate 2-3 cm depth</span>
+</div></div>
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
 				<div class="crop_name">Crop: Sugarcane</div>
 				<div class="location">Village: Hinjewadi, Taluka: Mulshi,<br> District: Pune, State: Maharashtra</div>
 				<div class="starting_date">Starting Date: <b>22 February 2020</b></div>
