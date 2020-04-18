@@ -1,0 +1,138 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+.main-nav li a:hover
+{
+	border: 1px solid black;
+}
+.logo img
+{
+	margin-top: 10px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+h2 a
+{
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	text-decoration: none;
+	font-size: 40px;
+	float: left;
+	color: black;
+	margin-top: 2%;
+	margin-left: -1%;
+
+}
+body
+{
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	height: 100%;
+	background:white;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.row
+{
+	max-width: 1200px;
+	margin: auto;
+}
+
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+
+}
+
+.btngrp
+{
+	margin: 3%;
+	padding: 0%;
+
+}
+.croplist
+{
+	outline: none;
+	width: 30%;
+	height: 30%;
+	background-color: white;
+	color: #000;
+	font-weight: bold;
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	padding: 0% 2% 0% 2%;
+	display: inline-grid;
+	margin: 15px;
+	border: 1px solid black;
+	font-size: 20px;
+	text-align: left;
+
+
+}
+
+.croplist .user
+{
+
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+
+}
+.a1
+{
+	margin: auto;
+	padding: 10% 0% 0% 0%;
+
+}
+
+.croplist h1
+{
+	font-size: 35px;
+	text-align: center;
+	margin: 0% 0% 0% 35%;
+	padding: 0% 0% 0% 0%;
+	width: fit-content;
+}
+.croplist b
+{
+	color: #E8A010;
+}
+.croplist input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.croplist form
+{
+	margin-top: -7%;
+}
