@@ -1,0 +1,153 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+.main-nav
+{
+	float: right;
+	list-style: none;
+	margin-top: 30px;
+}
+.main-nav li
+{
+	display: inline-block;
+}
+.main-nav li a
+{
+	color: black;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-size: 15px;
+}
+.main-nav li a:hover
+{
+	border: 1px solid black;
+}
+.logo img
+{
+	margin-top: 10px;
+	width: 100px;
+	height: auto;
+	float: left;
+}
+h2 a
+{
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	text-decoration: none;
+	font-size: 40px;
+	float: left;
+	color: black;
+	margin-top: 2%;
+	margin-left: -1%;
+
+}
+body
+{
+	font-family: 'Source Sans Pro',Helvetica Neue,Helvetica,Arial,sans-serif;
+	font-family: monospace;
+	height: 100%;
+	background: white;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+.row
+{
+	max-width: 1200px;
+	height: 85px;
+	margin: auto;
+}
+.btngrp
+{
+	margin: 8%;
+	padding: 2%;
+	margin-top: 4%;
+	font-size: 20px;
+	background-color: white;
+	text-align: -webkit-center;
+	height: auto;
+	font-family: sans-serif;
+	border: 1px solid black;
+	top: 40%;
+	left: 40%;
+	position: absolute;
+	transform: translate(-50%,-40%);
+
+}
+.btngrp button
+{
+	border: 1px solid white;
+	outline: none;
+	width: 43%;
+	background-color: red;
+	border-radius: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px;
+	display: block;
+	cursor: pointer;
+	margin: 11px;
+
+}
+.btngrp button:hover
+{
+	background-color: #de9b38;
+}
+
+.user
+{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	top: -50px;
+	left: calc(50% - 50px);
+
+}
+.btngrp p
+{
+	padding: 2px;
+}
+
+.btngrp input[type="text"],input[type="number"]
+{
+	border: none;
+	border-bottom: 1px solid black;
+	background: transparent;
+	outline: none;
+	font-size: 20px;
+	text-align: center;
+	height: 40px;
+	color: #000;
+}
+#save
+{
+	border: 1px solid white;
+	outline: none;
+	width: 43%;
+	background-color: green;
+	border-radius: 100px;
+	color: black;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 16px;
+	display: block;
+	cursor: pointer;
+	margin: 11px;
+}
+#save:hover
+{
+	background-color: #de9b38;
+}
+.btngrp a
+{
+	font-size: 12px;
+}
+#area
+{
+	margin-bottom: 6px;
+}
