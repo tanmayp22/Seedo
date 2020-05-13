@@ -1,15 +1,17 @@
 <html>
 <head>
-	<title>Disease</title>
-	<link rel="stylesheet" type="text/css" href="disease.css">
+	<title>Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="home1.css">
 	<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 	<link rel="stylesheet" href="material.css">
 	<style>
-	.material-icons {vertical-align:-14%; font-size: 80px; color: black;}
-	</style>
+.material-icons {vertical-align:-14%; font-size: 80px;}
+.w3-container {margin-top: auto;}
+</style>
 
-	<script>
+<script>
 
 function myFunction() {
   var popup = document.getElementById("myPopup");
@@ -38,94 +40,62 @@ window.onclick = function(event) {
 		<ul class="main-nav">
 		
 			<li class="active"><a href="home.html">Home</a></li>
-			<li><a href="css3-timeline/index.html">Timeline</a></li>
+			<li><a href="home1.html">Dashboard</a></li>
 			<li><a href="#">Contact Us</a></li>
-			<li><a href="#">Profile</a></li>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="profile.html">Profile</a></li>>
 			
 		</ul>
-
 		</div>
-
-
-	<div class="a1">
-		<h1 align="center" style="margin:auto; color: black; font-size: 40px">Diseases</h1>
+		<div class="a1">
 		<div class="btngrp" align="center">
 			<div class="croplist">
-				<h1>Grassy Shoot</h1>
+				<div class="a2"><h1>FARM 1</h1><div class="popup" onclick="myFunction()"><img src="dropicon.png">
+  <span class="popuptext" id="myPopup"> Irrigate 2-3 cm depth</span>
+</div></div>
 
-				<div class="crop_name">Solution: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ips</div>
+				<div class="crop_name">Crop: Sugarcane <a class="endbtn" onclick="document.getElementById('id02').style.display='block'">Harvest</a></div>
+				<div class="location">Village: Hinjewadi, Taluka: Mulshi,<br> District: Pune, State: Maharashtra</div>
 				<div class="starting_date">Starting Date: <b>22 February 2020</b></div>
-				<a href="#" class="button_farm">Resolved</a>
-			</div>
+				<div class="Harvest_date">Expected Harvesting Date: <b>25 February 2021</b></div>
+				<div><a href="css3-timeline/index.html" class="button_farm">Timeline</a>
+				<a href="#" class="button_farm">History</a>
+				<a class="diseasebtn" href="disease.html">Report Disease</a></div>
 
-			<div class="croplist">
-				<h1>Leaf Spot</h1>
 
-				<div class="crop_name">Solution: whatever the solution</div>
-				<div class="starting_date">Starting Date: <b>22 February 2020</b></div>
-				<a href="#" class="button_farm">Resolved</a>
-			</div>
-
-			<div class="croplist" id="add_farm">
-			<h1>Disease</h1>
-						<a style="border-radius:50%;margin: 15% 40% 25% 40%; padding: 0% 0% 0% 0%; cursor: pointer;" onclick="document.getElementById('id01').style.display='block'"><i class="material-icons">add_circle</i></a>
+											</div>
+			
+			
+			
+		<div class="croplist" id="add_farm">
+			<h1>Add Farm</h1>
+						<a href="detail.html" style="border-radius:50%;margin: 15% 40% 25% 40%; padding: 0% 0% 0% 0%; cursor: pointer;"><i class="material-icons">add_circle</i></a>
 		
 		</div>
-			
-			
-			
-		
-		</div>
+	</div>
 </div>
 
-<div id="id01" class="modal1">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+
+<div id="id02" class="modal1">
+  <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">×</span>
   <form class="modal-content">
     <div class="container">
-      <p style="margin-bottom: 3%;">which symptoms did you notice till now?</p>
+      <p style="margin-bottom: 3%;">how many tons per hecter yeild produced?</p>
     
       <div class="clearfix">
-        <div class="mt-chip">
-  <input type="checkbox" class="mt-chip_input" name="size">
-  <svg class="mt-chip_checkmark" viewBox="-2 -3 30 30"><path class="mt-chip_checkmarkPath" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg>
-  <div class="mt-chip_chip">Red Rot</div>
-  <div class="mt-ripple"></div>
-</div>
+        
+<input type="number" name="text" placeholder="Enter soil pH Value" step="0.01">
 
-<div class="mt-chip">
-  <input type="checkbox" class="mt-chip_input" name="size">
-  <svg class="mt-chip_checkmark" viewBox="-2 -3 30 30"><path class="mt-chip_checkmarkPath" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg>
-  <div class="mt-chip_chip">Grassy Shoot</div>
-  <div class="mt-ripple"></div>
-</div>
 
-<div class="mt-chip">
-  <input type="checkbox" class="mt-chip_input" name="size">
-  <svg class="mt-chip_checkmark" viewBox="-2 -3 30 30"><path class="mt-chip_checkmarkPath" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg>
-  <div class="mt-chip_chip">Leaf Spot</div>
-  <div class="mt-ripple"></div>
-</div>
 
-<div class="mt-chip">
-  <input type="checkbox" class="mt-chip_input" name="size">
-  <svg class="mt-chip_checkmark" viewBox="-2 -3 30 30"><path class="mt-chip_checkmarkPath" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg>
-  <div class="mt-chip_chip">Sett Rot</div>
-  <div class="mt-ripple"></div>
-</div>
-
-<div class="mt-chip">
-  <input type="checkbox" class="mt-chip_input" name="size">
-  <svg class="mt-chip_checkmark" viewBox="-2 -3 30 30"><path class="mt-chip_checkmarkPath" fill="none" stroke="black" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg>
-  <div class="mt-chip_chip">Yellow Leaf</div>
-  <div class="mt-ripple"></div>
-</div>
 
 <br>
 	</div>
-	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="reportbtn">Report disease</button>
+	<button type="button" onclick="document.getElementById('id02').style.display='none'" class="reportbtn">Submit</button>
     </div>
   </form>
 </div>
+
 
 <script>
 // Get the modal
@@ -140,7 +110,7 @@ window.onclick = function(event) {
 </script>
 
 
-
+			
 
 	
 </body>
